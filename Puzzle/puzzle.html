@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="puzzle.css">
+    <script src= "puzzle.js"></script>
+    <title>VAPORPuzzle</title>
+
+  </head>
+  <body onload="main()">
+      <div class="mainslider">
+        <img onclick="displayID(this)" src="aestetic.jpg" class="slide1" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="vapor.jpg" class="slide2" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="face.jpg" class="slide3" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="japan.jpg" class="slide1" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="portrait.jpg" class="slide2" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="rose.jpg" class="slide3" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="palm.jpg" class="slide1" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="window.jpg" class="slide2" id="img1" width="200px" height="200px">
+        <img onclick="displayID(this)" src="bart.jpg" class="slide3" id="img1" width="200px" height="200px">
+
+
+      </div>
+      <center><p id="tittle">蒸気 V A P O R   P U Z Z L E 蒸気</p><center/>
+        <p id="timer"> T I M E <span id="counter"> 0:0:0</span></p>
+        <button class="button" onclick="showhighscore()">SHOW HIGHSCORE</button>
+      <table>
+      <center>
+          <img id="imageType" src="computer.jpg" width="500px" height="300px">
+          <tr>
+            <td onclick="Mov1()"><img class="table" src="computer1.jpg" id="pos1"></td>
+            <td onclick="Mov2()"><img class="table" src="computer2.jpg" id="pos2"></td>
+            <td onclick="Mov3()"><img class="table" src="computer3.jpg" id="pos3"></td>
+          </tr>
+          <tr>
+            <td onclick="Mov4()"><img class="table" src="computer4.jpg" id="pos4"></td>
+            <td onclick="Mov5()"><img class="table" src="computer5.jpg" id="pos5"></td>
+            <td onclick="Mov6()"><img class="table" src="computer6.jpg" id="pos6"></td>
+          </tr>
+          <tr>
+            <td onclick="Mov7()"><img class="table" src="computer7.jpg" id="pos7"></td>
+            <td onclick="Mov8()"><img class="table" src="computer8.jpg" id="pos8"></td>
+            <td onclick="Mov9()"><img class="table" src="white.jpg" id="pos9"></td>
+          </tr>
+        </table>
+      <center/>
+      <div id="slider"></div>
+  </body>
+</html>
